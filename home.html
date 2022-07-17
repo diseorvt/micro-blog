@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Microblog</title>
+</head>
+
+<body>
+    <header class="navegacion">
+        <div class="navegacion__marca">
+            <img class="navegacion__logo" src="logo.svg" alt="logo Microblog">Microblog
+        </div>
+        <ul class="navegacion__enlaces">
+            <li class="navegacion__enlaces-item">
+                <a class="navegacion__link" href="">Reciente</a>
+            </li>
+            <li class="navegacion__enlaces-item">
+                <a class="navegacion__link" href="">Calendario</a>
+            </li>
+        </ul>
+    </header>
+    <main class="main">
+        <section>
+            <h1>Agregue un nuevo comentario</h1>
+            <form class="formulario" action="/entrada" method="post">
+                <p class="entrada__formulario">
+                    <label class="formulario__etiqueta" for="entrada">Insertar contenido:</label>
+                    <textarea class="formulario__texto" name="contenido" id="entrada"></textarea>
+                </p>
+                <input class="formulario__enviar" type="submit" value="Agregar">
+            </form>
+        </section>
+
+        <section>
+            <h1>Publicaciones recientes</h1>
+            <article class="entrada">
+                <div>
+                    <h2 class="entrada__titulo">Un pequeño paso a la vez</h2>
+                    <time class="entrada__fecha" datetime="15-07-2022">. Jul 15</time>
+                </div>
+                <p class="entrada__contenido">Hoy no he podido programar mucho, pero está bien. Tengo muchos que hacer con al escuela y el trabajo.</p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__contenido">
+            <section class="izquierda">
+                <a href="" class="footer__elemento">Elaborado por Ricardo Valdez</a>
+            </section>
+            <section class="derecha">
+                <div class="footer__column">
+                    <a href="" class="footer__elemento">Reciente</a>
+                    <a href="" class="footer__elemento">Calendario</a>
+                </div>
+                <div class="footer__column">
+                    <a href="" class="footer__elemento">Sobre mí</a>
+                    <a href="" class="footer__elemento">Sobre este sitio</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

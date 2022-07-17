@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+.navegacion {
+    max-width: 640px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navegacion__marca {
+display: flex;
+align-items: center;
+}
+
+.navegacion__logo {
+    margin-right: 30px;
+
+}
+
+.navegacion__enlaces {
+    list-style: none;
+    color: #5c6b70;
+    display: flex;
+}
+.navegacion__enlaces-item {
+    margin-left: 50px;
+}
+
+.navegacion__link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.main {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.entrada__formulario {
+    width: 100%;
+}
+
+.formulario__etiqueta {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario__texto {
+    height: 120px;
+    width: inherit;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #f3f6f6;
+}
+
+.formulario__enviar {
+    background-color: #3cd0ff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario__enviar:hover {
+    background-color: #18c1e1;
+}
+
+.entrada {
+    margin-top: 50px;
+}
+
+.entrada__titulo {
+    display: inline;
+    font-size: 18px;
+}
+
+.entrada__fecha {
+    color: #5c6b70;
+}
+
+.entrada__contenido {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #323f43;
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: solid black 4px;
+    color: white;
+    font-size: 12px;
+}
+
+.footer__contenido {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer .izquierda {
+    flex-grow: 2;
+}
+
+.footer .derecha {
+    flex-grow: 1;
+    display: flex;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer__elemento {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer__elemento:hover {
+    text-decoration: underline;
+}
